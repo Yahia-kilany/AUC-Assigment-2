@@ -17,8 +17,8 @@ int main ()
     {
         (A + i)->setX (70.0 + static_cast <float> (rand ()) / (static_cast <float> (RAND_MAX / (90.0 - 70.0))));
         (A + i)->setY (70.0 + static_cast <float> (rand ()) / (static_cast <float> (RAND_MAX / (90.0 - 70.0))));
-        (B + i)->setX ((20.0 + static_cast <float> (rand ()) / (static_cast <float> (RAND_MAX / (40.0 - 20.0)))));
-        (B + i)->setY ((20.0 + static_cast <float> (rand ()) / (static_cast <float> (RAND_MAX / (40.0 - 20.0)))));
+        (B + i)->setX (20.0 + static_cast <float> (rand ()) / (static_cast <float> (RAND_MAX / (40.0 - 20.0))));
+        (B + i)->setY (20.0 + static_cast <float> (rand ()) / (static_cast <float> (RAND_MAX / (40.0 - 20.0))));
     }
     for (int i = 0; i < m; i++)
     {
